@@ -1,6 +1,7 @@
-document.querySelectorAll("button")[0].addEventListener("click", function () {
-  alert("I am clicked");
-});
-document.querySelectorAll("button")[1].addEventListener("click", function () {
-  alert("I am clicked");
-});
+var numberOfButtons = document.querySelectorAll(".drum").length;
+
+for ( var i = 0; i < numberOfButtons; i++) {
+  document.querySelectorAll(".drum")[i].addEventListener("click", function () {
+    alert("I am clicked");
+  });
+}
