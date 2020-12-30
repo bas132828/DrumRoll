@@ -35,7 +35,7 @@ for (var i = 0; i < numberOfButtons; i++) {
         tom4.play();
         break;
 
-      default:consolo.log(buttonInnerHTML);
+      default:console.log(buttonInnerHTML);
 
     }
 
