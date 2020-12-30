@@ -42,8 +42,6 @@ for (var i = 0; i < numberOfButtons; i++) {
 
   });
 }
-//
-// j,k,l
 
 
 
