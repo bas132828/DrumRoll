@@ -43,6 +43,13 @@ for (var i = 0; i < numberOfButtons; i++) {
   });
 }
 
+document.addEventListener("keydown", function() {
+
+
+
+
+});
+
 
 
 
